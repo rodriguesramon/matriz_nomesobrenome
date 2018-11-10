@@ -15,8 +15,8 @@ namespace matriz_nomesobrenome
             {
                 for (int j = 0; j < qtdColunas; j++)
                 {
-                    if (j == 0) Console.WriteLine("Informe o nome: ");
-                    if (j == 1) Console.WriteLine("Informe o sobrenome: ");
+                    if (j == 0) Console.WriteLine("Informe o NOME: ");
+                    if (j == 1) Console.WriteLine("Informe o SOBRENOME: ");
 
                     m[i, j] = Console.ReadLine();
                     conteudo += m[i, j] + " ";
